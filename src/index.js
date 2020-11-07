@@ -7,10 +7,12 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import 'bootstrap/dist/css/bootstrap.css';
+
 import './global.css';
+import BadgesNew from './pages/BadgeNew';
 import Badges from './pages/Badges';
+import App from './components/App';
 
 // const jsx = <h1>Hello,Platzi Badges! </h1>;
 // const element = React.createElement('a', { href: 'https://platzi.com' }, 'Ir a platzi.');
@@ -41,4 +43,4 @@ const container = document.getElementById('app');
 //     jobTitle = "Backend Enginner"
 //     twitter = "loaizamateo" /> , container);
 
-ReactDOM.render( < Badges /> , container);
+ReactDOM.render( < App /> , container);
