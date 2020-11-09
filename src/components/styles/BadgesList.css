@@ -17,6 +17,10 @@
     margin-left: 1rem;
 }
 
+.Badge__link {
+    display: inherit;
+}
+
 .twitter__blue_font {
     color: #38a1f3;
 }
